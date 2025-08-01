@@ -25,8 +25,8 @@
         {
             "step": "setSiteOptions",
             "options": {
-                "blogname": "Red Dragon",
-                "blogdescription": "SUNY Oneonta Portfolio",
+                "site_title": "Red Dragon",
+                "site_tagline": "SUNY Oneonta Portfolio",
                 "show_on_front": "page",
                 "page_on_front": 4,
                 "page_for_posts": 20
