@@ -149,7 +149,17 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		<dc:creator><![CDATA[commons]]></dc:creator>
 		<guid isPermaLink="false">http://site-template-portfolio-1595347346.openlab.oneonta.edu/about-me/</guid>
 		<description></description>
-		<content:encoded><![CDATA[This is a good place to introduce yourself and explain what visitors will find on this site.]]></content:encoded>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>This is a good place to introduce yourself and explain what visitors will find on this site.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>You can edit this page by clicking the Edit button above. When you go to add to this page, try using the pattern inserter to add to your site. A good place to start for a portfolio homepage might to try to insert a Portfolio Banner..</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>You can also add new pages, posts, and other content to your site.</p>
+<!-- /wp:paragraph -->
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>4</wp:post_id>
 		<wp:post_date><![CDATA[2020-07-21 16:02:27]]></wp:post_date>
