@@ -5,8 +5,6 @@
     "version": "0.1.0",
     "author": "Ed Beck",
     "author_url": "https://ed-beck.com",
-    "tags": ["ePortfolio"],
-    "textdomain": "playground",
     "steps": [
         {
             "step": "setSiteOptions",
