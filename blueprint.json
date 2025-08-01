@@ -6,7 +6,7 @@
     "author": "Ed Beck",
     "author_url": "https://ed-beck.com",
     "tags": ["ePortfolio"],
-    "textdomain": "playground"
+    "textdomain": "playground",
     "steps": [
         {
             "step": "setSiteOptions",
@@ -14,6 +14,18 @@
                 "site_title": "Red Dragon",
                 "site_description": "SUNY Oneonta Portfolio",
             }
+        },
+        {
+            "step": "installTheme",
+            "themeData": {
+                "resource": "url",
+                "url": "https://github.com/beckej13820/red-dragon-portfolio/archive/refs/heads/main.zip"
+            },
+            "options": {
+                "activate": true,
+            }
         }
     ]
 }
+
+
