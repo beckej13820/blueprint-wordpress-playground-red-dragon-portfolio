@@ -18,18 +18,18 @@
             },
             "options": {
                 "activate": true
-            },
-            {
-                "step": "runPHP",
-                "code": "<?php\nrequire '/wordpress/wp-load.php';\n\n$posts = get_posts(array(\n    'numberposts' => -1,\n    'post_type' => array('post', 'page'),\n    'post_status' => 'any'\n));\n\nforeach ($posts as $post) {\n    wp_delete_post($post->ID, true);\n}"
-            },
-            {
+            }
+        },   
+        {
+            "step": "runPHP",
+            "code": "<?php\nrequire '/wordpress/wp-load.php';\n\n$posts = get_posts(array(\n    'numberposts' => -1,\n    'post_type' => array('post', 'page'),\n    'post_status' => 'any'\n));\n\nforeach ($posts as $post) {\n    wp_delete_post($post->ID, true);\n}"
+        },
+        {
                 "step": "importWxr",
                 "file": {
                     "resource": "url",
                     "url": "https://raw.githubusercontent.com/beckej13820/blueprint-wordpress-playground-red-dragon-portfolio/refs/heads/main/sitetemplate-portfolios.WordPress.2025-08-01.xml"
                 }
-            }
         }
     ]
 }
