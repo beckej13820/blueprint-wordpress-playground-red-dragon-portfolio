@@ -27,7 +27,7 @@
                 "step": "importWxr",
                 "file": {
                     "resource": "url",
-                    "url": ""
+                    "url": "https://raw.githubusercontent.com/beckej13820/blueprint-wordpress-playground-red-dragon-portfolio/refs/heads/main/sitetemplate-portfolios.WordPress.2025-08-01.xml"
                 }
             }
         }
