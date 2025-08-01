@@ -10,7 +10,7 @@
             "step": "setSiteOptions",
             "options": {
                 "site_title": "Red Dragon",
-                "site_description": "SUNY Oneonta Portfolio",
+                "site_description": "SUNY Oneonta Portfolio"
             }
         },
         {
@@ -20,7 +20,7 @@
                 "url": "https://github.com/beckej13820/red-dragon-portfolio/archive/refs/heads/main.zip"
             },
             "options": {
-                "activate": true,
+                "activate": true
             }
         }
     ]
