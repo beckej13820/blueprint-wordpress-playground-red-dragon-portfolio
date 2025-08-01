@@ -1,10 +1,5 @@
 {
     "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-    "name": "Red Dragon Portfolio",
-    "description": "A WordPress Playground starter site for testing Red Dragon Portfolio theme, a custom theme based on Twenty Twenty Five to specialize in portfolio development for undergraduate students.",
-    "version": "0.1.0",
-    "author": "Ed Beck",
-    "author_url": "https://ed-beck.com",
     "setSiteOptions": {
         "blogname": "Red Dragon",
         "blogdescription": "SUNY Oneonta Portfolio"
@@ -25,11 +20,19 @@
             "code": "<?php\nrequire '/wordpress/wp-load.php';\n\n$posts = get_posts(array(\n    'numberposts' => -1,\n    'post_type' => array('post', 'page'),\n    'post_status' => 'any'\n));\n\nforeach ($posts as $post) {\n    wp_delete_post($post->ID, true);\n}"
         },
         {
-                "step": "importWxr",
-                "file": {
-                    "resource": "url",
-                    "url": "https://raw.githubusercontent.com/beckej13820/blueprint-wordpress-playground-red-dragon-portfolio/refs/heads/main/sitetemplate-portfolios.WordPress.2025-08-01.xml"
-                }
+            "step": "importWxr",
+            "file": {
+                "resource": "url",
+                "url": "https://raw.githubusercontent.com/beckej13820/blueprint-wordpress-playground-red-dragon-portfolio/refs/heads/main/sitetemplate-portfolios.WordPress.2025-08-01.xml"
+            }
+        },
+        {
+            "step": "setSiteOptions",
+            "options": {
+                "show_on_front": "page",
+                "page_on_front": 4,
+                "page_for_posts": 20
+            }
         }
     ]
 }
