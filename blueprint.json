@@ -1,0 +1,19 @@
+{
+    "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+    "name": "Red Dragon Portfolio",
+    "description": "A WordPress Playground starter site for testing Red Dragon Portfolio theme, a custom theme based on Twenty Twenty Five to specialize in portfolio development for undergraduate students.",
+    "version": "0.1.0",
+    "author": "Ed Beck",
+    "author_url": "https://ed-beck.com",
+    "tags": ["ePortfolio"],
+    "textdomain": "playground"
+    "steps": [
+        {
+            "step": "setSiteOptions",
+            "options": {
+                "site_title": "Red Dragon",
+                "site_description": "SUNY Oneonta Portfolio",
+            }
+        }
+    ]
+}
