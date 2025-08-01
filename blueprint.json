@@ -1,9 +1,5 @@
 {
     "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-    "setSiteOptions": {
-        "blogname": "Red Dragon",
-        "blogdescription": "SUNY Oneonta Portfolio"
-    },
     "steps": [
         {
             "step": "installTheme",
@@ -29,6 +25,8 @@
         {
             "step": "setSiteOptions",
             "options": {
+                "blogname": "Red Dragon",
+                "blogdescription": "SUNY Oneonta Portfolio",
                 "show_on_front": "page",
                 "page_on_front": 4,
                 "page_for_posts": 20
