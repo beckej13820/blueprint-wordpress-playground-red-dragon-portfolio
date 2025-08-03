@@ -34,7 +34,7 @@
         },
         {
             "step": "wp-cli",
-            "command": "wp post update 4 --page_template=page-no-title.html"
+            "command": "wp post update 4 --page_template=page-no-title.php"
         }
     ]
 }
