@@ -31,6 +31,10 @@
                 "page_on_front": 4,
                 "page_for_posts": 20
             }
+        },
+        {
+            "step": "wp-cli",
+            "command": "wp post update 4 --page_template=page-no-title.html"
         }
     ]
 }
