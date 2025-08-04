@@ -5,7 +5,7 @@
             "step": "installTheme",
             "themeData": {
                 "resource": "url",
-                "url": "https://github.com/beckej13820/red-dragon-portfolio/archive/refs/heads/main.zip"
+                "url": "https://github.com/beckej13820/red-dragon-portfolio/archive/refs/heads/disable-theme-blocks.zip"
             },
             "options": {
                 "activate": true
