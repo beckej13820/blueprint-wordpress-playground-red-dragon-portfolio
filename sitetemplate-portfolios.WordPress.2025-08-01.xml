@@ -149,21 +149,7 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		<dc:creator><![CDATA[commons]]></dc:creator>
 		<guid isPermaLink="false">http://site-template-portfolio-1595347346.openlab.oneonta.edu/about-me/</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>This is a good place to introduce yourself and explain what visitors will find on this site.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>When you edit this page try using some patterns from the block inserter. This theme has a block patterns especially designed for eportfolios. Check out the Portfolio Banners Block Patterns as inspiration for your homepage.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->]]></content:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>4</wp:post_id>
 		<wp:post_date><![CDATA[2020-07-21 16:02:27]]></wp:post_date>
@@ -255,13 +241,7 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		<dc:creator><![CDATA[commons]]></dc:creator>
 		<guid isPermaLink="false">http://site-template-portfolio-1595347346.openlab.oneonta.edu/career/resume/</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p><strong>Should I upload a PDF or type my resume into the editor?</strong></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>You can upload PDFs to your website, but this may not be the best way to share information. First of all, you may want to remove some information normally found on your resume for a website. You might not want to share your phone number or address on the internet. PDFs will display on this website in a frame, but only on computers. Small devices, like mobile phones an uploaded document will not display. For that reason, you may want to copy and paste information onto the webpage.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>8</wp:post_id>
 		<wp:post_date><![CDATA[2020-07-21 16:02:27]]></wp:post_date>
